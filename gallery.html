@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Gallery</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+ 
+    <style>
+        #top{
+            height: 25vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background:linear-gradient(45deg, rgb(218, 240, 249), rgb(248, 239, 223))
+        }
+        #breed, #dog-sub-breeds{
+          
+           font-size: 20px;
+           padding: 3px;
+           
+
+        }
+        #img-btn{
+            font-size: 22px;
+            cursor: pointer;
+
+        }
+        img{
+          width: 30%;
+          margin: 1.5%;
+        }
+        #dog-sub-breeds{
+            margin-left: 200px;
+           
+
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <diV>
+      <select id="breed">
+
+      </select>
+      </diV>
+     
+        <button id="img-btn" type="submit">Get Image</button>
+    </div>
+
+    <div id="bottom">
+        <!-- <img src="" alt=""> -->
+    </div>
+    
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
